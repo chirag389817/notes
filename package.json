@@ -1,0 +1,28 @@
+{
+    "name": "notes",
+    "private": true,
+    "version": "1.0.0",
+    "homepage": "https://chirag389817.github.io/notes",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.8.0",
+        "websql": "^2.0.3"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@vitejs/plugin-react": "^3.1.0",
+        "gh-pages": "^5.0.0",
+        "tailwindcss": "^3.2.7",
+        "vite": "^4.2.0"
+    }
+}
